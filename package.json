@@ -1,10 +1,11 @@
 {
   "name": "@vdegenne/caesar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "caesar cryptographic module",
   "source": "src/caesar.mjs",
   "main": "dist/caesar.js",
   "module": "dist/caesar.mjs",
+  "typings": "caesar.d.ts",
   "scripts": {
     "build": "microbundle",
     "test": "node test.mjs"
