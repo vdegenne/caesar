@@ -1,0 +1,29 @@
+{
+  "name": "caesar",
+  "version": "1.0.0",
+  "description": "caesar cryptographic module",
+  "source": "src/caesar.mjs",
+  "main": "dist/caesar.js",
+  "module": "dist/caesar.mjs",
+  "scripts": {
+    "build": "microbundle",
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdegenne/caesar.git"
+  },
+  "keywords": [
+    "cryptography"
+  ],
+  "author": "Valentin Degenne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdegenne/caesar/issues"
+  },
+  "homepage": "https://github.com/vdegenne/caesar#readme",
+  "devDependencies": {
+    "clang-format": "^1.3.0",
+    "microbundle": "^0.11.0"
+  }
+}
