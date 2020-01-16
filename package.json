@@ -1,5 +1,5 @@
 {
-  "name": "caesar",
+  "name": "@vdegenne/caesar",
   "version": "1.0.0",
   "description": "caesar cryptographic module",
   "source": "src/caesar.mjs",
